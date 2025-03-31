@@ -2,6 +2,7 @@
   "name": "my-lib",
   "version": "0.0.0",
   "scripts": {
+    "preinstall": "npm run build",
     "build": "rimraf dist && vue-tsc && vite build",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -37,6 +38,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wuruoyun/vue-component-lib-starter.git"
+    "url": "git+https://github.com/Cherepanov-Pavel/vue-component-lib-starter.git"
   }
 }
